@@ -12,3 +12,15 @@ class QuestionDTO(BaseModel):
     
     class Config:
         orm_mode = True
+
+
+class QuestionIn(BaseModel):
+    question_id: int
+    question: str
+    answer: str
+    created_at: datetime
+    
+    class Config:
+        orm_mode = True
+
+
