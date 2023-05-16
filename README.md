@@ -22,6 +22,7 @@ docker compose up
 # ENDPOINTS:
 
 ```
-GET /api/questions/?limit=100&skip=0
-POST /api/questions/  {"questions_num": 100}
+GET /docs/ автодокументация для тестирования от fastAPI
+GET /api/questions/?limit=100&skip=0  получить список вопросов
+POST /api/questions/  {"questions_num": 100} добавить в бд N вопросов
 ```
