@@ -18,3 +18,10 @@ POSTGRES_DB=quizze
 ```
 docker compose up
 ```
+
+# ENDPOINTS:
+
+```
+GET /api/questions/?limit=100&skip=0
+POST /api/questions/  {"questions_num": 100}
+```
